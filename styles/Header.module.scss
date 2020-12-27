@@ -1,0 +1,5 @@
+.headerLinks{
+    a{
+        @apply text-white focus:outline-none focus:ring focus:ring-gray-50 focus:ring-opacity-50 rounded-lg py-2 px-5 bg-white bg-opacity-10 hover:bg-opacity-80 hover:bg-green-900 transition-all duration-300;
+    }
+}

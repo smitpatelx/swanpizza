@@ -1,0 +1,17 @@
+html, body{
+    background-image: 
+        linear-gradient(180deg, rgba(61,61,61,1) 0%, rgba(80, 80, 80, 0.2) 23%, rgba(80, 80, 80, 0.2) 76%, rgba(61,61,61,1) 100%),
+        url('/bg.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+    position: relative;
+    background-blend-mode: multiply;
+}
+
+.overlay-app{
+    filter:blur(4px) brightness(50%);
+    backdrop-filter: blur(5px);
+}

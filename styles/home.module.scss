@@ -1,0 +1,16 @@
+.dealCards{
+    @apply bg-white py-10 px-12 flex flex-col rounded-3xl shadow-xl text-center hover:shadow-2xl transition-all duration-300;
+
+    h1{
+        @apply text-4xl font-bold text-green-swan my-1;
+    }
+    h2{
+        @apply text-3xl font-bold mt-4 text-gray-700;
+    }
+    h3{
+        @apply text-lg font-semibold text-gray-600;
+    }
+    h4{
+        @apply text-xl font-medium text-gray-500;
+    }
+}

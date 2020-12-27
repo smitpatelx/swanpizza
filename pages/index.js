@@ -23,7 +23,7 @@ export default function Home() {
         </div>
         <div className={styles.dealCards}>
           <h4>Deal #3</h4>
-          <h1>1 Personal 14"</h1>
+          <h1>1 Large 14"</h1>
           <h3>2 Toppings</h3>
           <h2>$ 10.95</h2>
         </div>

@@ -2,7 +2,6 @@ import '../styles/globals.css'
 import '../styles/app.scss'
 import headerLinks from '../styles/Header.module.scss'
 
-
 function MyApp({ Component, pageProps }) {
 
   return (

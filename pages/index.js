@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import styles from '../styles/home.module.scss'
-import Image from 'next/image'
 import { useState } from "react";
 import Menu from '../components/menu'
 
@@ -15,12 +14,13 @@ export default function Home() {
   }
 
   return (
-    <div className="w-full flex flex-wrap justify-center items-center" style={{ minHeight: "87vh" }}>
-      {toogleVal && 
-        (
-          <Menu toogleVal={toogleVal} onExitPopup={handleToogle}></Menu>
-        )
-      }
+    <div className="w-full flex flex-wrap justify-center items-center" style={{ minHeight: "86vh" }}>
+      <Head>
+        <title>RedSwanPizza - McPhillips Winnipeg</title>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="description" content="WalkIn special deals for personal 8-inch, small 10-inch and large 14-inch pizza." />
+      </Head>
       <div className="w-full flex flex-wrap flex-col content-start justify-start items-center mt-24 pl-16">
         <h1 className="text-7xl font-bold text-red-swan w-full">
           Red Swan <span className="text-green-swan">Pizza</span>
@@ -62,6 +62,7 @@ export default function Home() {
           <h2>$ 10.95</h2>
         </div>
       </div>
+      { toogleVal &&   ( <Menu toogleVal={toogleVal} onExitPopup={handleToogle}></Menu> ) }
       {/* <div className="w-full flex flex-wrap justify-center items-center space-x-14 select-none pb-10">
         <button className="bg-orange-500 hover:bg-orange-600 transition-all duration-300 focus:ring-4 focus:ring-orange-300 focus:outline-none py-3 px-6 rounded-lg ">
           <Image src="/skip-the-dishes.svg" width="200" height="45"></Image>

@@ -1,14 +1,14 @@
 html, body{
-    background-image: 
-        linear-gradient(180deg, rgba(61,61,61,1) 0%, rgba(80, 80, 80, 0.2) 23%, rgba(80, 80, 80, 0.2) 76%, rgba(61,61,61,1) 100%),
-        url('/bg.jpg');
+    background-image: url('/person-1.png'),
+        url('/pizza-transparent.png');
     background-attachment: fixed;
-    background-position: center;
+    background-position: right bottom, -10% 110%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 40vw, 30vw;
     background-clip: content-box;
     position: relative;
-    background-blend-mode: multiply;
+    background-blend-mode: normal;
+    @apply bg-gray-50;
 }
 
 .overlay-app{

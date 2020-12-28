@@ -20,6 +20,9 @@ module.exports = {
         green: {
           swan: 'rgb(45,158,63)'
         },
+        red: {
+          swan: 'rgb(160,51,52)'
+        }
       }
     },
     colors: {

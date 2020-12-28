@@ -6,12 +6,11 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <div>
-      <header className="w-full flex flex-wrap justify-center items-center py-6 px-16">
+      <header className="w-full flex flex-wrap justify-center items-center py-6 px-4 md:px-16">
         <div className="flex flex-wrap justify-start items-center w-1/2">
           <img className="h-12 inline-block" src="/logo-black.svg"/>
         </div>
         <div className={`flex flex-wrap justify-end items-center w-1/2 text-xl font-semibold space-x-6 ${headerLinks.headerLinks}`}>
-          {/* <a onClick={menuToggle} className="cursor-pointer">Menu</a> */}
           <a href="https://www.instagram.com/redswanpizzawinnipeg/" target="_blank">
             <svg className="w-6 h-6 block text-red-swan" fill="currentColor" viewBox="0 0 38 38"><defs/><path fillRule="evenodd" d="M11.084 4.75a6.333 6.333 0 00-6.334 6.334v15.833a6.333 6.333 0 006.334 6.333h15.833a6.333 6.333 0 006.333-6.333V11.083a6.333 6.333 0 00-6.333-6.333H11.083zm-9.5 6.334a9.5 9.5 0 019.5-9.5h15.833a9.5 9.5 0 019.5 9.5v15.833a9.5 9.5 0 01-9.5 9.5H11.083a9.5 9.5 0 01-9.5-9.5V11.083z" clipRule="evenodd"/><path fillRule="evenodd" d="M19.765 14.233a4.75 4.75 0 10-1.393 9.399 4.75 4.75 0 001.393-9.4zm-4.343-2.329a7.917 7.917 0 117.293 14.055 7.917 7.917 0 01-7.293-14.055z" clipRule="evenodd"/></svg>
           </a>

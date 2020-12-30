@@ -21,13 +21,19 @@ export default function Home() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="description" content="WalkIn special deals for personal 8-inch, small 10-inch and large 14-inch pizza." />
       </Head>
-      <div className="w-full flex flex-wrap flex-col content-start justify-start items-center mt-24 pl-5 md:pl-16">
+      <div className="w-full flex flex-wrap flex-col content-start justify-start items-center mt-20 pl-5 md:pl-16">
         <h1 className="text-5xl md:text-7xl font-bold text-red-swan w-full">
           Red Swan <span className="text-green-swan">Pizza</span>
         </h1>
         <h2 className="text-xl font-medium text-gray-700 w-full mt-2 flex flex-wrap items-center justify-start">
           <svg className="w-8 h-8 inline-block mr-2" fill="currentColor" viewBox="0 0 50 50"><defs/><path fillRule="evenodd" d="M39.583 12.5H10.417a2.09 2.09 0 01-2.084-2.083 2.09 2.09 0 012.084-2.083h29.166a2.09 2.09 0 012.084 2.083 2.09 2.09 0 01-2.084 2.083zM42 16.25a2.079 2.079 0 00-2.042-1.666H10.042c-1 0-1.854.708-2.042 1.666L6.25 25v2.084a2.09 2.09 0 002.083 2.083v10.416a2.09 2.09 0 002.084 2.084h16.666a2.09 2.09 0 002.084-2.084V29.168H37.5v10.416a2.09 2.09 0 002.083 2.084 2.09 2.09 0 002.084-2.084V29.168a2.09 2.09 0 002.083-2.084V25L42 16.25zM25 37.5H12.5v-8.333H25V37.5z" clipRule="evenodd"/></svg>
           2-2401 McPhillips Street - Winnipeg
+        </h2>
+        <h2 className="text-lg font-semibold text-gray-500 w-full mt-2 flex flex-wrap items-center justify-start">
+          <span className="text-green-swan px-1">Delivery</span> 
+          <span className="px-1">&amp;</span> 
+          <span className="text-green-swan px-1">Takeout</span> 
+          option available !
         </h2>
         <div className="w-full flex flex-wrap items-center justify-start mt-5 space-x-6">
           <a href="tel:+12043066666" className="text-white bg-green-swan hover:bg- rounded-full py-3 pl-6 pr-8 text-lg font-semibold focus:outline-none focus:ring focus:ring-green-400 transition-all duration-300">
